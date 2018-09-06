@@ -1,7 +1,7 @@
 /* Platform use cases styles */
 
 .use-cases {
-  min-height: 620px;
+  min-height: 650px;
   margin-top: 40px;
   padding-top: 40px;
   background-image: url("../images/portal-bg.jpg");
@@ -9,6 +9,10 @@
   background-repeat: no-repeat;
   color: #000;
 }
+
+.main > section.use-cases {
+  padding-bottom: 0;
+} 
 
 .use-cases h2 {
   margin-bottom: 20px;
@@ -83,7 +87,7 @@
   }
 
   .use-cases {
-    min-height: 790px;
+    min-height: 870px;
     padding-top: 35px;
   }
 
