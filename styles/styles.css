@@ -228,6 +228,25 @@
     margin-bottom: 33px;
   }
 
+  .use-cases__item--1,
+  .use-cases__item--2 {
+    height: 260px;
+  }
+
+  .use-cases__item--3,
+  .use-cases__item--4 {
+    height: 277px;
+  }
+
+  .use-cases__item--5,
+  .use-cases__item--6 {
+    height: 287px;
+  }
+
+  .use-cases__item:last-child {
+    height: 267px;
+  }
+
   .use-cases__item h3 {
     padding-top: 23px;
   }
