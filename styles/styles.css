@@ -192,5 +192,66 @@
 /* Platform use cases 360px styles */
 
 @media screen and (max-width: 749px) {
+
+  .use-cases {
+    min-height: 2557px;
+  }
+
+  section.use-cases {
+    padding-top: 57px;
+  }
   
+  .container--use-cases {
+    width: 335px;
+  }
+
+  .use-cases h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .use-cases p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+
+  .use-cases li, 
+  .use-cases a, 
+  .use-cases__item div {
+    width: 335px;
+  }
+
+  .use-cases li {
+    margin-bottom: 33px;
+  }
+
+  .use-cases__item h3 {
+    padding-top: 23px;
+  }
+
+  .use-cases__item p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 54px;
+    padding: 0 25px;
+  }
+
+  .use-cases__item--active a {
+    top: -60px;
+    padding-top: 60px;
+  }
+
+  .use-cases__item:last-child div {
+    width: 335px;
+    height: 192px;
+  }
+
+  .use-cases__item:last-child img {
+    max-width: 95%;
+  }
+
 }
