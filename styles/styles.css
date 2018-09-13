@@ -1,13 +1,11 @@
 /* Platform use cases styles */
 
 .use-cases {
-  min-height: 650px;
-  margin-top: 40px;
-  padding-top: 40px;
-  background-image: url("../images/portal-bg.jpg");
-  background-position: 50% top;
-  background-repeat: no-repeat;
+  min-height: 1807px;
+  padding-top: 60px;
+  background-color: #fff;
   color: #000;
+  border-top: 1px solid #000;
 }
 
 .main > section.use-cases {
@@ -15,15 +13,21 @@
 } 
 
 .use-cases h2 {
-  margin-bottom: 20px;
+  margin-bottom: 36px;
   color: #000;
 }
 
 .use-cases p {
-  width: 415px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
   margin: 0 auto;
   margin-bottom: 20px;
   color: #000;
+}
+
+.use-cases span.br {
+  display: block;
 }
 
 .use-cases li {
