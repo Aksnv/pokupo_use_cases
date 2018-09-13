@@ -65,6 +65,10 @@
   text-align: center;
 }
 
+.use-cases__item button {
+  display: none;
+}
+
 .use-cases__item:last-child div {
   width: 958px;
 }
@@ -118,7 +122,7 @@
   padding: 0 165px;
 }
 
-.use-cases__item:hover a {
+.use-cases__item--active a {
   position: absolute;
   top: -50px;
   left: 0;
@@ -129,14 +133,14 @@
   z-index: 2;
 }
 
-.use-cases__item:hover p {
+.use-cases__item--active p {
   display: block;
 }
 
 
 /* Platform use cases 768px styles */
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
 
   section.use-cases {
     display: block;
@@ -163,12 +167,12 @@
     width: 708px;
   }
 
-  .use-cases__item button {
+  .use-cases__item--active button {
     position: absolute;
-    top: 18px;
+    top: -32px;
     right: 20px;
     content: "";
-    display: none;
+    display: block;
     width: 17px;
     height: 17px;
     background-image: url("../images/close_button.png");
@@ -176,10 +180,7 @@
     border: none;
     outline: none;
     cursor: pointer;
-  }
-
-  .use-cases__item:hover button {
-    display: block;
+    z-index: 3;
   }
 
 }
