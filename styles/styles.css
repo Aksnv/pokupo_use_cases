@@ -1,11 +1,15 @@
 /* Platform use cases styles */
 
 .use-cases {
-  min-height: 1807px;
+  min-height: 1927px;
   padding-top: 60px;
   background-color: #fff;
   color: #000;
-  border-top: 1px solid #000;
+}
+
+.container--use-cases {
+  width: 958px;
+  margin: 0 auto;
 }
 
 .main > section.use-cases {
@@ -22,7 +26,7 @@
   font-weight: 300;
   line-height: 24px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 90px;
   color: #000;
 }
 
@@ -31,34 +35,102 @@
 }
 
 .use-cases li {
-  margin-bottom: 10px;
-}
-
-.use-cases li > a {
-  margin-right: 20px;
-}
-
-.use-cases li > a:last-child {
-  margin-right: 0;
-}
-
-.use-cases a.btn-sm {
+  position: relative;
   display: inline-block;
   vertical-align: top;
-  height: 50px;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 46px;
-  text-transform: uppercase;
+  width: 477px;
   text-align: center;
-  padding: 0 30px;
-  background-color: #fff;
-  color: #000;
-  border: 2px solid #ffa800;
+  margin-bottom: 75px;
 }
 
-.use-cases a.btn-sm:hover {
-  background-color: #ffa800;
+.use-cases li:last-child {
+  margin-bottom: 0;
+}
+
+.use-cases li:last-child,
+.use-cases li:last-child a {
+  width: 100%;
+}
+
+.use-cases a {
+  display: inline-block;
+  width: 477px;
+  text-decoration: none;
+}
+
+.use-cases__item div {
+  display: table-cell;
+  vertical-align: middle;
+  width: 477px;
+  text-align: center;
+}
+
+.use-cases__item:last-child div {
+  width: 958px;
+}
+
+.use-cases__item--1 div,
+.use-cases__item--2 div {
+  height: 185px;
+}
+
+.use-cases__item--3 div,
+.use-cases__item--4 div {
+  height: 202px;
+}
+
+.use-cases__item--5 div,
+.use-cases__item--6 div {
+  height: 212px;
+}
+
+.use-cases__item--7 div {
+  height: 296px;
+}
+
+.use-cases img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.use-cases__item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 32px;
+  padding-top: 30px;
+  color: #333;
+}
+
+.use-cases__item p {
+  display: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 55px;
+  padding: 0 40px;
+  color: black;
+}
+
+.use-cases__item:last-child p {
+  padding: 0 165px;
+}
+
+.use-cases__item:hover a {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  padding-top: 50px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 12px 50px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.use-cases__item:hover p {
+  display: block;
 }
 
 
@@ -98,19 +170,6 @@
   .use-cases h2.foremost {
     font-size: 30px;
     font-weight: 300;
-  }
-
-  .use-cases p {
-    width: 325px;
-  }
-
-  .use-cases li {
-    margin-bottom: 0;
-  }
-
-  .use-cases li > a {
-    width: 320px;
-    margin-right: 0;
   }
   
 }
