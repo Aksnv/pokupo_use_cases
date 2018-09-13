@@ -8,6 +8,6 @@ $(".use-cases__item").hover(
   $(this).removeClass("use-cases__item--active");
   });
 
-$(".use-cases__item--active button").click(function() {
-  $(".use-cases__item").removeClass("use-cases__item--active");
+$(".use-cases__item button").click(function() {
+  $(this).parent().removeClass("use-cases__item--active");
 });

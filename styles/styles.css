@@ -145,7 +145,6 @@
   section.use-cases {
     display: block;
     padding-top: 100px;
-    border-top: 1px solid #000;
   }
 
   .container--use-cases {
@@ -181,6 +180,10 @@
     outline: none;
     cursor: pointer;
     z-index: 3;
+  }
+
+  .use-cases__item:last-child p {
+    padding: 0 40px;
   }
 
 }
